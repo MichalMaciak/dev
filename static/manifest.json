@@ -1,0 +1,17 @@
+{
+    "short_name": "Maciak.dev",
+    "name": "Maciak.dev | I am solving your IT problems",
+    "start_url": "/",
+    "icons": [
+      {
+        "src": "favicon.png",
+        "type": "image/png",
+        "sizes": "512x512"
+      }
+    ],
+    "background_color": "#171717",
+    "display": "standalone",
+    "scope": "/",
+    "theme_color": "#171717"
+    
+}
