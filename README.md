@@ -5,6 +5,3 @@ Are you struggling with website speed and functionality issues, or looking to de
 ```bash
 "https://maciak.dev"
 ```
-
-
-
