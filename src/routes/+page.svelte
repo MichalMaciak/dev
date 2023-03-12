@@ -16,7 +16,7 @@
         <div><Img class="w-40 rounded-full max-w-xs " src={michal} alt="Michał Maciak" /> 
             <p class="text-xl text-teal-100 pt-4 text-center md:text-left">Michał Maciak <br>- maciak.dev <br> Warsaw, Poland</p></div>
         <div class="flex flex-row justify-center items-start md:justify-end w-full md:w-5/6 pt-8 md:pt-0">
-            <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://github.com/maciakDev"><Img class="w-20 md:w-12" src={github} alt="GitHub" /></a></div>
+            <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://github.com/MichalMaciak"><Img class="w-20 md:w-12" src={github} alt="GitHub" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://www.linkedin.com/in/michalmaciak/"><Img class="w-20 md:w-12" src={ln} alt="linkedin" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://discord.gg/Fscq3Khxtt"><Img class="w-20 md:w-12" src={discord} alt="discord" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="mailto:michal@maicak.dev"><Img class="w-20  md:w-12" src={mail} alt="e-mail" /></a></div>
