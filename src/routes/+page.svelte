@@ -19,7 +19,7 @@
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://github.com/MichalMaciak"><Img class="w-20 md:w-12" src={github} alt="GitHub" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://www.linkedin.com/in/michalmaciak/"><Img class="w-20 md:w-12" src={ln} alt="linkedin" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://discord.gg/Fscq3Khxtt"><Img class="w-20 md:w-12" src={discord} alt="discord" /></a></div>
-            <div class="px-2 md:px-4 hover:animate-bounce"><a href="mailto:michal@maicak.dev"><Img class="w-20  md:w-12" src={mail} alt="e-mail" /></a></div>
+            <div class="px-2 md:px-4 hover:animate-bounce"><a href="mailto:michal@maciak.dev"><Img class="w-20  md:w-12" src={mail} alt="e-mail" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="tel:+48694296006"><Img class="w-20 md:w-12" src={phone} alt="phone" /></a></div>
         </div>  
        
@@ -41,7 +41,7 @@
         
         <div class="flex flex-col md:flex-row md:py-12 ">
             <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">websites, speed and functionality issues</h3></div>
-            <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4" >applications, configurators, scripts</h3></div>
+            <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4" >applications, configurators, scripts, AI</h3></div>
             <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">management, conversion, accessibility</h3></div>
         </div>
         
@@ -61,7 +61,6 @@
   openGraph={{
     title: 'Maciak.dev | I am solving your IT problems',
     description: 'Are you struggling with website speed and functionality issues, or looking to develop custom applications, configurators, or scripts? As an experienced IT developer, I specialize in solving these types of challenges and providing comprehensive management solutions. ',
-    image: 'https://maciak.dev/wallpaper800x600.jpg',
     url: 'https://maciak.dev',
     type: 'website',
     images: [
