@@ -31,21 +31,27 @@
 
 <main class="bg-slate-900">
     
-    <section class="flex flex-col justify-center items-center pb-10"> 
-      <h2 class="text-teal-100 text-4xl md:text-5xl my-12 px-8 font-sans">"The cobbler's children have no shoes"</h2>  
+    <section class="flex flex-col md:flex-row justify-center items-center pb-10"> 
+      <div class="basis-1/5">
+        <h2 class="text-teal-100 text-4xl md:text-5xl my-12 px-8 font-sans">Activity</h2>
+      </div>
+      
+      <div class="basis-3/5 shrink ">
+        <h2 class="text-teal-100 text-4xl md:text-5xl my-12 px-8 font-sans">"The cobbler's children have no shoes"</h2>  
       <h1 class="text-6xl mx-32 md:text-9xl md:mx-72 text-teal-400  text-right font-bold font-serif tracking-wider mb-10">
             I solve <span class="underline">Your</span> problems
         </h1>
         
         <h2 class="text-teal-100 text-2xl md:text-3xl my-12 px-8 font-sans">Transforming your IT struggles into digital success:</h2>  
-        
-        <div class="flex flex-col md:flex-row md:py-12 ">
-            <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">websites, speed and functionality issues</h3></div>
-            <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4" >applications, configurators, scripts</h3></div>
-            <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">management, conversion, accessibility</h3></div>
-        </div>
-        
-    </section>
+
+      </div>
+      </section>
+
+      <section  class="flex flex-col md:flex-row md:py-12 ">
+        <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">websites, speed and functionality issues</h3></div>
+        <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4" >applications, configurators, scripts, AI</h3></div>
+        <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">management, conversion, accessibility</h3></div>
+      </section>
  
 </main>
 <footer class="bg-slate-900 border-t-2 border-teal-100">
@@ -61,7 +67,6 @@
   openGraph={{
     title: 'Maciak.dev | I am solving your IT problems',
     description: 'Are you struggling with website speed and functionality issues, or looking to develop custom applications, configurators, or scripts? As an experienced IT developer, I specialize in solving these types of challenges and providing comprehensive management solutions. ',
-    image: 'https://maciak.dev/wallpaper800x600.jpg',
     url: 'https://maciak.dev',
     type: 'website',
     images: [
