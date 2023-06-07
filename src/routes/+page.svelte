@@ -7,20 +7,21 @@
     import phone from '$lib/assets/phone.png?run'
     import discord from '$lib/assets/discord.png?run'
     import bg from '$lib/assets/wallpaper.jpg?run'
+    import gcc from '$lib/assets/google-cybersecurity-certificate.png?run'
     import SvelteSeo from "svelte-seo";
 
 </script>
 
 <header class="bg-slate-900">
     <section class="flex flex-col md:flex-row px-8 md:px-24 py-8 items-center md:items-start">
-        <div><Img class="w-40 rounded-full max-w-xs " src={michal} alt="Michał Maciak" /> 
+        <div><Img class="w-40 rounded-full max-w-xs flex-row" src={michal} alt="Michał Maciak" /> 
             <p class="text-xl text-teal-100 pt-4 text-center md:text-left">Michał Maciak <br>- maciak.dev <br> Warsaw, Poland</p></div>
+            <div class="px-2 md:px-4"><a href="https://www.credly.com/badges/28200b0e-8527-4627-9f03-75f2c6c368c8/public_url"><Img class="w-40 md:w-48" src={gcc} alt="google-cybersecurity-certificate" /></a></div>
         <div class="flex flex-row justify-center items-start md:justify-end w-full md:w-5/6 pt-8 md:pt-0">
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://github.com/MichalMaciak"><Img class="w-20 md:w-12" src={github} alt="GitHub" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://www.linkedin.com/in/michalmaciak/"><Img class="w-20 md:w-12" src={ln} alt="linkedin" /></a></div>
-            <div class="px-2 md:px-4 hover:animate-bounce"><a href="https://discord.gg/Fscq3Khxtt"><Img class="w-20 md:w-12" src={discord} alt="discord" /></a></div>
             <div class="px-2 md:px-4 hover:animate-bounce"><a href="mailto:michal@maciak.dev"><Img class="w-20  md:w-12" src={mail} alt="e-mail" /></a></div>
-            <div class="px-2 md:px-4 hover:animate-bounce"><a href="tel:+48694296006"><Img class="w-20 md:w-12" src={phone} alt="phone" /></a></div>
+            <div class="px-2 md:px-4 hover:animate-bounce"><a href="tel:+48793433348"><Img class="w-20 md:w-12" src={phone} alt="phone" /></a></div>
         </div>  
        
        
@@ -43,6 +44,7 @@
             <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">websites, speed and functionality issues</h3></div>
             <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4" >applications, configurators, scripts, AI</h3></div>
             <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">management, conversion, accessibility</h3></div>
+            <div class="px-14 py-8 md:py-0"><h3 class="text-teal-100 text-3xl font-sans border-l-2 border-teal-100 pl-4">cybersecurity, network security, cybersecurity assessment</h3></div>
         </div>
         
     </section>
